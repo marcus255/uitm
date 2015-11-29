@@ -1,0 +1,93 @@
+html, body{
+	background-color: #D1D6D6
+}
+
+#top {width: 780px;
+    display: block;
+    margin: 0 auto;
+    background-color: #ccc;
+    border-width : 15 ;
+    border-color : #000000;
+    border-style : double ;
+
+}
+
+#NAGLOWEK {
+	background-color: #808080;
+	background-image: url('../tlo.jpg');
+	background-repeat : repeat-x;
+	font-size: 40;
+	text-align: center;
+	padding: 30px;
+	font-weight: bold;
+	color: white;
+	font-family : "Swis721 BlkEx BT" ;
+}
+
+
+#MENU {
+    clear: both;
+	width: 166px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	background-color: #ccc;
+    font-size: 20;
+    padding-left: 7;
+    padding-top: 3;
+    font-family: "Comic Sans MS";
+}
+
+#MENU ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#MENU ul li {
+	width: 200px;
+	padding-left: 10px;
+	background: #000080;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #dfe #365 #365 #dfe;
+}
+
+#MENU ul a:link, ul a:visited {
+	display: block;
+	width: 177px;
+	text-decoration: none;
+	padding: 5px 10px;
+	font-weight: bold;
+	background: #8AC5FF;
+	color: #000080;
+	border-left: 2px solid #0080FF;
+}
+
+#MENU ul a:hover {
+	background-color: #0080FF;
+	color: #eff;
+}
+
+#TRESC {width: 540px;
+	float: right;
+	overflow: hidden;
+	background-color: #EDEBEB;
+	padding: 10px;
+	border-width : medium ;
+    border-color : white;
+    border-style : solid ;
+    font-family : "Tahoma" ;
+    font-weight: bold;
+    text-align: justify;
+    margin: 20;	
+}
+
+#STOPKA {
+	clear: both;
+	width: 100%;
+	background-color: #888;
+	padding: 4;
+	text-align: center;
+}
